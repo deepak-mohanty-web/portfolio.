@@ -1,8 +1,7 @@
 {
   "name": "dipu",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://deepak-mohanty-web.github.io/portfolio",
+  "homepage": "https://deepak-mohanty-web.github.io/deepak-portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@testing-library/jest-dom": "^5.16.5",
