@@ -1,0 +1,49 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fira+Code:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&family=Roboto+Slab:wght@100..900&family=Roboto:wght@100;300;400&display=swap'); */
+
+:root{
+  /* --font-base:"DM Sans",sans-serif; */
+
+  --primary-color:#edf2f8;
+  --secondary-color:#313bac;
+  --black-color:#030303;
+  --lightGray-color:#e4e4e4;
+  --gray-color:#6b7688;
+  --brown-color:#46364a;
+  --white-color:#ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+button {
+  display: inline-block;
+  background-color:  hsl(var(0), var(0%), 20%);
+  color: #fff;
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight:500;
+}
+
+.button:hover {
+  background-color: #0a0a0a;
+}
+
+.button__icon {
+  margin-left:0.5rem;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
